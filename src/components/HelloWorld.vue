@@ -38,7 +38,7 @@ export default {
     }
   },
   beforeUpdate() {
-    alert('Haz cambiado de opción')
+    alert(`Haz seleccionado ${this.nombre == "perro" ? "perro": "ninja"}`)
   }
 }
 
